@@ -1,0 +1,56 @@
+/* Styles the scrollbar track (part the scrollbar moves along) */
+.scrollbar-track {
+  background: #f1f1f1; /* Light grey background */
+}
+
+/* Styles the scrollbar handle */
+.scrollbar-thumb {
+  background-color: #A2AA7B; /* Darker shade for the scrollbar itself */
+  border-radius: 10px; /* Rounded corners for the scrollbar */
+  border: 3px solid #f1f1f1; /* Light grey border */
+}
+
+/* Adds the styling to only the vertical scrollbar */
+.chat-messages::-webkit-scrollbar {
+  width: 11px; /* Width of the scrollbar */
+}
+
+.chat-messages::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+.chat-messages::-webkit-scrollbar-thumb {
+  background-color: #A2AA7B;
+  border-radius: 10px;
+  border: 3px solid #f1f1f1;
+}
+
+
+/* Add this to your CSS file or <style> section of your React component */
+.skinAssessmentForm::-webkit-scrollbar {
+  width: 8px; /* Adjust width of the scrollbar */
+}
+
+.skinAssessmentForm::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+}
+
+.skinAssessmentForm::-webkit-scrollbar-thumb {
+  background-color: #A2AA7B; /* Color of the scrollbar itself */
+  border-radius: 10px; /* Rounded corners of the scrollbar thumb */
+  border: 2px solid #f1f1f1; /* Creates padding around the scrollbar thumb */
+}
+
+
+
+.input-field:focus {
+  outline: none;
+  box-shadow: none; /* Optional: Removes any shadow effects on focus */
+}
+
+.sidebar-logo {
+  width: 120px; /* Explicit width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0; /* Remove any margins */
+}
